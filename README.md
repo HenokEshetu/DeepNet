@@ -14,10 +14,6 @@ DeepNet is a modern, GUI-based network toolkit written in Rust. It provides adva
 - **Packet Crafter**: Craft and send custom TCP, UDP, ICMP, or raw packets with user-defined parameters.
 - **Packet Sniffer**: Capture and inspect packets on selected network interfaces with optional BPF filtering.
 
-## Screenshots
-
-*(Add screenshots here if available)*
-
 ## Getting Started
 
 ### Prerequisites
@@ -42,7 +38,7 @@ cargo build --release
 cargo run --release
 ```
 
-> **Note:** Some features (like packet crafting and sniffing) may require running as root.
+> **Note:** Some features (like packet crafting and sniffing) require running as root.
 
 ## Usage
 
