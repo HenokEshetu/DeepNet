@@ -1,20 +1,22 @@
 # DeepNet - Advanced Network Toolkit
 
-<img src="https://github.com/Enqute/Movie-Management-System/blob/main/Screenshot%20From%202025-07-05%2022-03-01.png?raw=true" alt="" width="100%">
-
-<img src="https://github.com/Enqute/Movie-Management-System/blob/main/Screenshot%20From%202025-07-05%2022-03-06.png?raw=true" alt="" width="100%">
-
-<img src="https://github.com/Enqute/Movie-Management-System/blob/main/Screenshot%20From%202025-07-05%2022-03-32.png?raw=true" alt="" width="100%">
-
-DeepNet is a modern, GUI-based network toolkit written in Rust. It provides advanced tools for port scanning, packet crafting, and packet sniffing, all accessible through an intuitive interface built with [egui](https://github.com/emilk/egui) and [eframe](https://github.com/emilk/eframe).
-
 ## Features
 
 - **Port Scanner**: Scan TCP and UDP ports with configurable ranges, scan types (SYN, Connect, UDP), and thread count.
 - **Packet Crafter**: Craft and send custom TCP, UDP, ICMP, or raw packets with user-defined parameters.
 - **Packet Sniffer**: Capture and inspect packets on selected network interfaces with optional BPF filtering.
 
+DeepNet is a modern, GUI-based network toolkit written in Rust. It provides advanced tools for port scanning, packet crafting, and packet sniffing, all accessible through an intuitive interface built with [egui](https://github.com/emilk/egui) and [eframe](https://github.com/emilk/eframe).
+
 ## Getting Started
+
+### Screenshots
+
+<img src="https://github.com/Enqute/Movie-Management-System/blob/main/Screenshot%20From%202025-07-05%2022-03-01.png?raw=true" alt="" width="100%">
+
+<img src="https://github.com/Enqute/Movie-Management-System/blob/main/Screenshot%20From%202025-07-05%2022-03-06.png?raw=true" alt="" width="100%">
+
+<img src="https://github.com/Enqute/Movie-Management-System/blob/main/Screenshot%20From%202025-07-05%2022-03-32.png?raw=true" alt="" width="100%">
 
 ### Prerequisites
 
@@ -27,7 +29,7 @@ DeepNet is a modern, GUI-based network toolkit written in Rust. It provides adva
 Clone the repository and build with Cargo:
 
 ```sh
-git clone https://github.com/yourusername/DeepNet.git
+git clone https://github.com/HenokEshetu/DeepNet.git
 cd DeepNet
 cargo build --release
 ```
