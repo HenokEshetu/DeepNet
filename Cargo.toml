@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+pnet = "0.31.0"  # For network packet manipulation
+pnet_datalink = "0.31.0"
+crossbeam-channel = "0.5.7"  # For thread communication
+eframe = { version = "0.22", features = ["persistence"] }
+egui = "0.22"
